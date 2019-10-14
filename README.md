@@ -8,8 +8,7 @@ API Rest desenvolvida exclusivamente para o teste de seleção da Incodde.
 
 #### Credenciais para banco de dados
 
-Crie o arquivo `.env` de acordo com o `.env.example` preenchendo as credenciais do banco
-Ou use as que já estão setadas:
+Crie o arquivo `.env` de acordo com o `.env.example` preenchendo as credenciais do banco ou use as que já estão setadas:
 
 - Banco (DB_NAME): `test`
 - Usuário (DB_USER): `test`
