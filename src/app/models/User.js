@@ -39,7 +39,7 @@ class User extends Model {
       {
         id: this.id
       },
-      "73f304ed16b64d9cf22c9404283dc5ac",
+      process.env.APP_SECRET,
       {
         expiresIn: "7d"
       }
