@@ -1,23 +1,44 @@
-# Descrição
+## About The Project
 
-API Rest desenvolvida exclusivamente para o teste de seleção da Incodde.
+This is a REST API created for serving a <b>To Do List</b> application. It was used as a test in a selection process.
 
-## Instruções de execução
+### Build With
 
-- `npm install`
+*  Node
+*  Express
+*  MySQL
+*  Sequelize
 
-#### Credenciais para banco de dados
+## Getting Started
 
-Crie o arquivo `.env` de acordo com o `.env.example` preenchendo as credenciais do banco ou use as que já estão setadas:
+This is an example of how you can run the project locally.
 
-- Banco (DB_NAME): `test`
-- Usuário (DB_USER): `test`
-- Senha (DB_PASSWORD): `test`
+### Instalation
 
-#### Gerar migrations do sequelize
+1. Clone the repo
+```sh
+git clone https://github.com/ebarross/todo-app-api.git
+```
 
-- `sequelize-cli db:migrate`
+2. Install NPM packages
+```sh
+npm install
+```
 
-#### Iniciar aplicação
+3. Create `.env` from `.env.example` inserting the database credentials
+```sh
+DB_NAME=test
+DB_USER=test
+DB_PASSWORD=test
+```
 
-- `npm start`
+4. Generate Sequelize migrations
+```sh
+sequelize-cli db:migrate
+```
+
+### Running
+
+```sh
+npm start
+```
